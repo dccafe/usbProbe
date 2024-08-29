@@ -2,7 +2,7 @@
 A general purpose probe firmware for the MSP430F5529.
 
 # General command format: 
-  
+```  
   module action pin [options]
 
 module    - gpio, timer, serial, adc
@@ -62,3 +62,4 @@ adc read P6.0
 
 adc write P6.1
 -> ERROR command not available
+```
